@@ -5,5 +5,9 @@
 
 ## Run Airflow
 
+* export AIRFLOW_HOME="$(pwd)"
 * airflow initdb
-* In a different terminal tab -> airflow webserver --port 8080
+* airflow scheduler
+* Open a different terminal tab
+* export AIRFLOW_HOME="$(pwd)"
+* airflow webserver --port 8080
